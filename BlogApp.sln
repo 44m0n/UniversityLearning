@@ -16,28 +16,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogApp.Dotnet.ApplicationC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogApp.Dotnet.Services", "Services\BlogApp.Dotnet.Services.csproj", "{D2CB0625-5CB0-41F0-B8D6-2095E0ED333E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogApp.Dotnet.Web.Tests", "UnitTests\BlogApp.Dotnet.Web.Tests.csproj", "{4856E8C4-FF33-41D3-8679-DCBA87F5A4A2}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogApp.Dotnet.Services.Tests", "ServicesTests\BlogApp.Dotnet.Services.Tests.csproj", "{E075619E-9865-4220-A6E4-57146E9914D0}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{E8B36E8D-26A1-4E73-A2E0-31AD8C2616E0}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogApp.Dotnet.Web.IntegrationTests", "IntegrationTests\BlogApp.Dotnet.Web.IntegrationTests.csproj", "{829E9595-9679-4C71-ADF9-3EC97F822418}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegrationTests", "IntegrationTests", "{DA65B20B-3425-413C-AB91-E3BA5D96C355}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogApp.Dotnet.API", "BlogApp.Dotnet.WebAPI\BlogApp.Dotnet.API.csproj", "{0EE4ADB4-ECB5-4D87-9A6B-D69453BEF67B}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APITests", "APITests", "{E1E6AB3A-94D6-4DF0-B431-A37E94FB76A1}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{9E19CE1D-4D0A-4335-8B4F-FC4D74350CC8}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegrationTests", "IntegrationTests", "{04F67ADB-EE8A-4B8E-B498-6988C8446824}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogApp.Dotnet.API.Tests", "BlogApp.Dotnet.API.Tests\BlogApp.Dotnet.API.Tests.csproj", "{84357F9E-FAAB-43EE-948D-BE1A1FD45803}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogApp.Dotnet.API.IntegrationTests", "BlogApp.Dotnet.API.IntegrationTests\BlogApp.Dotnet.API.IntegrationTests.csproj", "{D861126A-8FC1-40FA-BA4D-C26BA44511B2}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
