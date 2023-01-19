@@ -67,15 +67,16 @@
 
     <div class="collapse show" id="commentsSection">
 
-        <div class="d-flex flex-row-reverse bd-highlight">
+    <div class="d-flex flex-row-reverse bd-highlight">
 
-            <form asp-action="Details" asp-route-id="@Model.ID" method="get">
+        <form asp-action="Details" asp-route-id="@Model.ID" method="get">
 
-                <input type="text" class="mt-1 align-middle" name="SearchString" value="@TempData["Search"]" />
-                <input type="submit" value="Search" class="btn btn-outline-dark  mt-1" />
+            <input type="text" class="mt-1 align-middle" name="SearchString" value="@TempData["Search"]" />
+            <input type="submit" value="Search" class="btn btn-outline-dark  mt-1" />
 
-            </form>
-        </div>
+        </form>
+    </div>
+    </div>
 
 
         <div class="collapse show" id="commentsSection">

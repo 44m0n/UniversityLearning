@@ -40,7 +40,7 @@ namespace BlogApp.Dotnet.Web
                 .AddEntityFrameworkStores<ApplicationContext>();
 
             services.AddDbContext<ApplicationContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("BlogPostContext")));
+                    options.UseSqlite(Configuration.GetConnectionString("BlogPostContext")));
 
             services.Configure<IdentityOptions>(options => Configuration.GetSection("IdentityOptions").Bind(options));
 
@@ -84,7 +84,8 @@ namespace BlogApp.Dotnet.Web
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-
+                
+                
                 if (context.Database.ProviderName != "Microsoft.EntityFrameworkCore.InMemory")
                 {
                     context.Database.Migrate();
